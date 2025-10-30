@@ -1,5 +1,5 @@
 /* Tested together with Ultrachromic/titlepage/title_simple-logo.css */
-/* v1.0.0-beta.1 */
+/* v1.0.0-beta.2 */
 :root {
     --smallRadius: 0.5em;
     --primaryItemPageNegativeSpace: 12vh;
@@ -66,6 +66,10 @@
 }
 
 .libraryPage:not(.noSecondaryNavPage) {
+    padding-top: 9.5em !important;
+}
+
+.libraryPage:not(.noSecondaryNavPage):not(.layout-tv .libraryPage) {
     padding-top: 6.8em !important;
 }
 
@@ -134,13 +138,13 @@
 
 .layout-desktop .detailImageContainer .card {
     position: absolute !important;
-    width: 25vw;
+    width: 22vh !important;
     float: none;
-    left: 3.3%;
-    top: -12.96em;
+    left: 0 !important;
+    top: 0;
     right: 0;
     margin: auto;
-    margin-bottom: -12.96em;
+    margin-bottom: 0;
     place-self: center;
     transform: translateY(-80%);
     max-height: none;
@@ -157,7 +161,6 @@
 .layout-desktop [dir="ltr"] .detailRibbon,
 .layout-tv [dir="ltr"] .detailRibbon {
     flex-direction: column;
-    padding-left: 32.45vw;
 }
 
 .detailPagePrimaryContainer > .detailPagePrimaryContent,
@@ -167,7 +170,7 @@
 }
 
 .layout-desktop .detailRibbon {
-    height: 28em;
+    height: 28vh;
     margin-top: unset;
 }
 
