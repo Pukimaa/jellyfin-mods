@@ -42,7 +42,7 @@
 .detailLogo {
     position: absolute !important;
     display: block !important;
-    top: calc(100vh - 11em - var(--primaryItemPageNegativeSpace));
+    top: calc(100vh - 16em - var(--primaryItemPageNegativeSpace));
     left: 0;
     width: 40%;
     transform: translateY(-100%);
